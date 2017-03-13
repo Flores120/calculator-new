@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.numbers {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: auto;
+}
+.number {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: lightgray;
+ border: 2px solid darkgray;
+ width: 32.53%;
+ height: 50px;
+ flex-grow: 1;
+ outline: none;
+}
+.number:hover {
+  cursor: pointer;
+}
+.display {
+  width: 496px;
+  margin: auto;
+  height: 60px;
+  border: 2px solid darkgray;
+}
