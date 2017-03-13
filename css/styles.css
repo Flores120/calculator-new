@@ -1,14 +1,15 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-.numbers {
+.key {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   width: 500px;
   margin: auto;
 }
-.number {
+.key span{
+  margin: auto;
  display: flex;
  justify-content: center;
  align-items: center;
