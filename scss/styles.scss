@@ -1,0 +1,43 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.calculator {
+  border-radius: 10px;
+  margin: auto;
+  width: 530px;
+  height: 500px;
+  background-color: gray;
+  padding: 20px;
+  .display {
+    background: white;
+  }
+}
+.numbers{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: auto;
+}
+.key{
+  margin: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: lightgray;
+ width: 19%;
+ height: 50px;
+ flex-grow: 1;
+ margin: 15px;
+ font-size: 16px;
+}
+.key:hover {
+  cursor: pointer;
+}
+.display {
+  width: 470px;
+  margin: auto;
+  height: 60px;
+  border: 2px solid darkgray;
+  margin-top: 50px;
+}
