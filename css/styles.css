@@ -1,21 +1,21 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-.key {
+.numbers{
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   width: 500px;
   margin: auto;
 }
-.key span{
+.number{
   margin: auto;
  display: flex;
  justify-content: center;
  align-items: center;
  background-color: lightgray;
  border: 2px solid darkgray;
- width: 32.53%;
+ width: 24%;
  height: 50px;
  flex-grow: 1;
  outline: none;
