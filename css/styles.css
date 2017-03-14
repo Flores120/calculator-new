@@ -8,7 +8,7 @@ body {
   width: 500px;
   margin: auto;
 }
-.number{
+.key{
   margin: auto;
  display: flex;
  justify-content: center;
@@ -20,7 +20,7 @@ body {
  flex-grow: 1;
  outline: none;
 }
-.number:hover {
+.key:hover {
   cursor: pointer;
 }
 .display {
