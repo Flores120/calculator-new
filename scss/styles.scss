@@ -49,3 +49,11 @@ body {
   border: 2px solid darkgray;
   margin-top: 50px;
 }
+.display #display {
+  position: relative;
+  padding: 10px;
+  top: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #496693;
+}
