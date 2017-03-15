@@ -6,10 +6,11 @@ body {
   margin: auto;
   width: 530px;
   height: 500px;
-  background-color: gray;
+  background-color: #729ce0;
   padding: 20px; }
   .calculator .display {
-    background: white; }
+    background: white;
+    border: none; }
 
 .numbers {
   display: flex;
@@ -23,15 +24,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
+  background-color: white;
+  color: #729ce0;
   width: 19%;
   height: 50px;
   flex-grow: 1;
   margin: 15px;
-  font-size: 16px; }
+  font-size: 16px;
+  border: none;
+  border-bottom: 3px solid #496693; }
+  .keykey:active {
+    border: none; }
 
 .key:hover {
-  cursor: pointer; }
+  cursor: pointer;
+  border: none; }
 
 .display {
   width: 470px;
